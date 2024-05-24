@@ -57,18 +57,19 @@ background-color: #C8EBFA;
 tr:hover {
     background-color: #EDD3ED;
 }
-.country-link {
-    text-decoration: none;
+.country-link:visited {
     border-bottom: 1px solid transparent;
 }
 .country-link:hover {
     color: #0000FF;
+    border-bottom: 1px solid transparent;
     border-bottom-color: #0000FF;
 }
-.country-link:active {
+/* .country-link:active {
     color: #0000FF;
+    border-bottom: 1px solid transparent;
     border-bottom-color: #0000FF;
-}
+} */
 .align-right {
     text-align: right;
 }
